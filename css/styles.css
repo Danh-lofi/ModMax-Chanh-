@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.container__number {
+    text-align: center;
+}
+
+.number {
+    margin-top: 10px;
+}
+
+input[type='submit'] {
+    padding: 5px 30px;
+    margin-top: 10px;
+}
+
+table {
+    margin-top: 20px;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+td {
+    padding: 5px 10px;
+}
